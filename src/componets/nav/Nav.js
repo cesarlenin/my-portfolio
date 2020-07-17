@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom';
 
 export class Nav extends Component {
   render() {
     return (
         <nav>
-        <button class="active home">Cesar Morales</button>
+        <NavLink className='active home' to = '/projects' >Cesar Morales</NavLink> 
         <ul id="myLinks" class="links">
-            <li><button class="projects">Projects</button></li>
-            <li><button class="about">About</button></li>
+        <li>
+            <NavLink className='projects' to = '/projects' >Projects</NavLink> 
+        </li>
+        <li>
+            <NavLink className='about' to = '/'>about</NavLink> 
+        </li>
         </ul>
         <button class="icon">
             <i class="fa fa-bars"></i>

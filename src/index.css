@@ -167,8 +167,6 @@ ul{
   width: 100%;
 }
 
-button.active{height: 54px;} 
-
 .links {
   display: none;
   list-style-type:none;
@@ -183,7 +181,7 @@ button.active{height: 54px;}
 
 
 
-nav button {
+nav a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
@@ -260,7 +258,7 @@ nav button.icon {
 
   nav button.icon {display: none;}
 
-  button.active{
+  a.home{
     position: absolute;
     left: 0;  
   }
