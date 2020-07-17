@@ -7,7 +7,7 @@ export class Project extends Component {
 
   <div class="imgContainer">
     <a class= "img" href="https://thinkful-ei-narwhal.github.io/Quiz-App_Cesar_Yousef/" target="_blank">
-      <img src="img/QuizApp.png" alt="Quiz App image" class= "image"/> 
+      <img src="/images/QuizApp.png" alt="Quiz App" class= "image"/> 
       <span class= "viewProjectHover"> View Project</span> 
     </a> 
   </div>
