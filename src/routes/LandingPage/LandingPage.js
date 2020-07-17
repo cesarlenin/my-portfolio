@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Header from '../../componets/Header/Header'
+import Header from '../../componets/LandingHeader/LandingHeader'
 import AboutMe from '../../componets/AboutME/AboutMe'
 import Contact from '../../componets/Contact/Contact'
 
