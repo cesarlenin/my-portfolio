@@ -6,7 +6,7 @@ export class Nav extends Component {
     return (
         <nav>
         <NavLink className='active home' to = '/projects' >Cesar Morales</NavLink> 
-        <ul id="myLinks" class="links">
+        <ul id="myLinks" className="links">
         <li>
             <NavLink className='projects' to = '/projects' >Projects</NavLink> 
         </li>
@@ -14,8 +14,8 @@ export class Nav extends Component {
             <NavLink className='about' to = '/'>about</NavLink> 
         </li>
         </ul>
-        <button class="icon">
-            <i class="fa fa-bars"></i>
+        <button className="icon">
+            <i className="fa fa-bars"></i>
         </button>
     </nav>
     )

@@ -8,7 +8,7 @@ export class LandingPage extends Component {
     return (
       <Fragment>
           <Header/>
-          <div clas="info">
+          <div className="info">
             <AboutMe/>
             <Contact/>
           </div>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class AboutMe extends Component {
   render() {
     return (
-      <section class="about-me">
+      <section className="about-me">
     <h3>About me</h3>
     <p>I love coding because the work I do is something I can proudly stamp my name on.
      Encountering roadblocks and overcoming them gives me a sense of euphoria. I like a challenge.
