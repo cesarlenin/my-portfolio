@@ -237,6 +237,7 @@ nav a {
   .project{
     display: flex;
     flex-direction: column;
+    border-bottom: solid 1px #02265D;
   }
 
   .buttons{align-self: flex-start}

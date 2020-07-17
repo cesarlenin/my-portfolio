@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment} from 'react';
 import Project from '../../componets/Project/Project'
 import STORE from '../../componets/STORE'
 
@@ -19,9 +19,9 @@ export class ProjectList extends Component {
    })
 
    return ( 
-    <section className= "project">
+     <Fragment>
      {projectList}
-    </section>
+     </Fragment>
     )
   }
 }
