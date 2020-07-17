@@ -10,9 +10,11 @@ export class ProjectList extends Component {
         key={index} 
         id = {project.id} 
         name = {project.name}
+        live = {project.live}
         summary = {project.summary}
         repo = {project.repo}
         tech = {project.tech}
+        img = {project.img}
         />
    })
 

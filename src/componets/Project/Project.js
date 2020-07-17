@@ -6,13 +6,13 @@ export class Project extends Component {
         <section className= "project">
 
   <div className="imgContainer">
-    <a className= "img" href="https://thinkful-ei-narwhal.github.io/Quiz-App_Cesar_Yousef/" target="_blank" rel="noopener noreferrer">
-      <img src="/images/QuizApp.png" alt="Quiz App" className= "image"/> 
+    <a className= "img" href={this.props.live} target="_blank" rel="noopener noreferrer">
+      <img src={this.props.img} alt={this.props.name} className= "image"/> 
       <span className= "viewProjectHover"> View Project</span> 
     </a> 
   </div>
 
-    <h3>Quiz App</h3>
+    <h3>{this.props.name}</h3>
 
     <div>
       <svg className="tech-icon" viewBox="0 0 128 128">
@@ -33,17 +33,12 @@ export class Project extends Component {
       
     </div> 
 
-
-    <p>Quiz app is a game for anyone that wants to test their knowledge.
-     The game tracks the user's current progression, as well as whether the user has selected the correct or incorrect answer.
-      Then it will display that information after each question has been answered.
-        At the end the user will be provided with their score and how many questions they got correct or incorrect.
-         I made this as a tool to help me study for future tests.</p>
+    <p>{this.props.summary}</p>
     
     <div className="buttons">
-      <a className="link-button" href="https://github.com/thinkful-ei-narwhal/Quiz-App_Cesar_Yousef" target="_blank" rel="noopener noreferrer">View Code</a>
-              
-      <a className="link-button" href="https://thinkful-ei-narwhal.github.io/Quiz-App_Cesar_Yousef/" target="_blank" rel="noopener noreferrer">View Project</a>
+      <a className="link-button" href={this.props.repo} target="_blank" rel="noopener noreferrer">View Code</a>
+         
+      <a className="link-button" href={this.props.live} target="_blank" rel="noopener noreferrer">View Project</a>
     </div>
   </section>
     )
