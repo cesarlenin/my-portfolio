@@ -52,11 +52,17 @@ p{
 header{
   margin-top: 4rem;
   text-align: center;
+  border-bottom: solid 1px #02265D;
+}
+
+.tech-container{
+  margin-top: 1rem;
 }
 
 .circle{
   border:#060E45 solid;
   border-radius: 50%;
+  height: 250px;
 }
 
 main{
@@ -110,7 +116,7 @@ section {
 
 .viewProjectHover {
   opacity: 0;
-  color: white;
+  color: red;
   background-color: rgba(6, 103, 38, 0.3);
   font-size: 2em;
   position: absolute;

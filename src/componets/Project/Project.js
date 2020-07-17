@@ -14,6 +14,8 @@ export class Project extends Component {
     
     return (
         <section className= "project">
+          
+          <h3>{this.props.name}</h3>
 
   <div className="imgContainer">
     <a className= "img" href={this.props.live} target="_blank" rel="noopener noreferrer">
@@ -22,8 +24,7 @@ export class Project extends Component {
     </a> 
   </div>
 
-    <h3>{this.props.name}</h3>
-    <div>{tech}</div> 
+    <div className="tech-container">{tech}</div> 
     <p>{this.props.summary}</p>
     
     <div className="buttons">

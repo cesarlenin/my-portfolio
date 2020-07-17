@@ -2,7 +2,6 @@ import React, { Component ,Fragment } from 'react'
 
 export class TechIcons extends Component {
   render() {
-      console.log(this.props.name)
     if (this.props.name=== 'html'){
         return (
         <Fragment>
