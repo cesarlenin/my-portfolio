@@ -115,6 +115,7 @@ section {
   font-size: 2em;
   position: absolute;
   top: 50%;
+  max-width: 800px;
   margin:0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -134,7 +135,6 @@ section {
 
 .image {
   width: 100%;
-  max-width: 600px;
   height: auto;
   max-width: 800px;
 }

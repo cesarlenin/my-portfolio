@@ -23,16 +23,11 @@ export class Project extends Component {
   </div>
 
     <h3>{this.props.name}</h3>
-
-    <div>
-      {tech}
-    </div> 
-
+    <div>{tech}</div> 
     <p>{this.props.summary}</p>
     
     <div className="buttons">
-      <a className="link-button" href={this.props.repo} target="_blank" rel="noopener noreferrer">View Code</a>
-         
+      <a className="link-button" href={this.props.repo} target="_blank" rel="noopener noreferrer">View Code</a>  
       <a className="link-button" href={this.props.live} target="_blank" rel="noopener noreferrer">View Project</a>
     </div>
   </section>
