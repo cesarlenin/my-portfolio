@@ -6,17 +6,10 @@ export class Nav extends Component {
     return (
         <nav>
         <NavLink className='active home' to = '/' >Cesar Morales</NavLink> 
-        <ul id="myLinks" className="links">
-        <li>
-            <NavLink className='projects' to = '/projects' >Projects</NavLink> 
-        </li>
-        <li>
-            <NavLink className='about' to = '/'>about</NavLink> 
-        </li>
-        </ul>
-        <button className="icon">
-            <i className="fa fa-bars"></i>
-        </button>
+        <div>
+        <NavLink className='projects' to = '/projects' >Projects</NavLink> 
+        <NavLink className='about' to = '/'>about</NavLink> 
+        </div>
     </nav>
     )
   }

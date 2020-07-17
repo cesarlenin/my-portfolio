@@ -149,27 +149,17 @@ nav {
   overflow: hidden;
   background-color: #060E45;
   display: flex;
-  flex-direction:column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   letter-spacing: .2em;
   min-height: 54px;
 }
 
 .about, .projects{
-  border: white solid 1px;
+  border: none;
   padding: 10px 10px;
   width: 100%;
   margin:0;
-}
-
-ul{
-  width: 100%;
-}
-
-.links {
-  display: none;
-  list-style-type:none;
 }
 
 .links.open{
@@ -183,25 +173,16 @@ ul{
 
 nav a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   padding: 2px;
   background:none;
   border:none;
   cursor: pointer;
-  margin-left: 10px;
+  margin: 3px 0px 3px 10px;
   padding: 0px 10px;
   color: #F6D900;
   letter-spacing: .1em;
-}
-
-nav button.icon {
-  position: absolute;
-  text-decoration: none;
-  right: 10px;
-  top: 5px;
-  font-size: 30px;
-  color: #EEEEEE;
 }
 
 .link-button{
@@ -236,31 +217,9 @@ nav button.icon {
 
 /* --------------responsive design-------------------- */
 @media (min-width: 420px) {
-  nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 12px;
-  }
 
-  #myLinks{
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    justify-self: middle;
-    margin:0;
-  }
-
-  .about, .projects{
-    border: none;
-  }
-
-  nav button.icon {display: none;}
-
-  a.home{
-    position: absolute;
-    left: 0;  
+  nav a {
+    font-size: 18px;
   }
 
   .about-me{
@@ -307,5 +266,9 @@ nav button.icon {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    }
+
+    nav a {
+      font-size: 20px;
     }
 }
