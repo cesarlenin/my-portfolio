@@ -4,11 +4,12 @@ import LandingPage from '../../routes/LandingPage/LandingPage';
 import ProjectPage from '../../routes/ProjectsPage/ProjectsPage';
 import NotFoundPage from '../../routes/NotFoundPage/NotFoundPage';
 import Footer from '../Footer/Footer';
+import Nav from '../nav/Nav';
 
 function App() {
   return (
     <Fragment>
-    {/* <Route path='/' component={Navigation} /> */}
+    <Route path='/' component={Nav} />
     <main>
         <Switch>
           <Route
