@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
+import Header from '../../componets/Header/Header'
 
 export class LandingPage extends Component {
   render() {
     return (
-      <div>
-          LandingPage
-      </div>
+      <Fragment>
+          <Header/>
+      </Fragment>
     )
   }
 }
