@@ -6,7 +6,7 @@ const STORE = {
             live:'https://penny-thoughts.vercel.app/',
             summary: "This app is an uplifting, anonymous, message sharing app. Negative messages are filtered out using a toxicity filter from TensorFlow.",
             repo: "https://github.com/thinkful-ei-narwhal/penny-thoughts-client",
-            tech: ["html","css","js"],
+            tech: ["html","css","js","node","postgresql","react","knex", "mocha","express"],
             img:"/images/Penny-Thoughts.png"
         },
         {
@@ -15,7 +15,7 @@ const STORE = {
             live:'https://spaced-rep-french.vercel.app',
             summary: "This app helps users implement the spaced repetition technique to help users learn ten preloaded French words. New Users can create an account. Returning users can log in and begin practicing with instant feedback and reinforcement.",
             repo: "https://github.com/thinkful-ei-narwhal/french-langue-cesarkevin",
-            tech: ["html","css","js"],
+            tech: ["html","css","js","node","postgresql","react","knex", "mocha","express"],
             img:"/images/Spaced-Rep.png"
         },
         {
@@ -24,7 +24,7 @@ const STORE = {
             live:'https://my-discipline.now.sh/',
             summary: "My Discipline was created to be a simple way to keep track and organize all of your habits. The user starts off by setting goals they want to meet. Then generating a collection of habits they want to have, and quickly seeing their consistency in a calendar every time they log in.",
             repo: "https://github.com/cesarlenin/my-discipline",
-            tech: ["html","css","js"],
+            tech: ["html","css","js","node","postgresql","react","knex", "mocha","express"],
             img:"/images/My-Discipline.png"
         },
         {
