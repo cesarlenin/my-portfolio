@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
+import AboutMe from './AboutMe';
 
-
-describe('<App />', () => {
+describe('<AboutMe />', () => {
     it('renders without crashing', () => {
       const div = document.createElement('div');
       ReactDOM.render(
-      <BrowserRouter>
-      <App/>
-      </BrowserRouter>
+      <AboutMe/>
       , div);
       ReactDOM.unmountComponentAtNode(div);
     });

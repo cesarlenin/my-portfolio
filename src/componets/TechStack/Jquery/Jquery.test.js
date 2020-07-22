@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
+import Jquery from './Jquery';
 
-
-describe('<App />', () => {
+describe('<Jquery />', () => {
     it('renders without crashing', () => {
       const div = document.createElement('div');
       ReactDOM.render(
-      <BrowserRouter>
-      <App/>
-      </BrowserRouter>
+      <Jquery/>
       , div);
       ReactDOM.unmountComponentAtNode(div);
     });

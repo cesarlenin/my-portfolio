@@ -1,5 +1,4 @@
 .not-found-container {
-  margin-top: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,27 +28,15 @@
   text-decoration: none;
   padding: 8px 40px;
   border-radius: 40px;
-  color: #E7E393;
-  background-color: #DD7230;
-  border: 5px double  #2E1F27;
+  color: #F6D900;
+  background-color: #060E45;
+  border: 5px double  #F6D900;
 }
 
 .go-back-btn:hover {
-  background-color: #F4C95D;
+  background-color: #F6D900;
   color: #854D27;
   border: 5px double #2E1F27;
   transition: 0.3s;
 }
 
-.footer {
-  background-color: #dd7230;
-  font-size: 16px;
-  font-weight: bolder;
-  color: #2e1f27;
-  text-align: center;
-  padding: 20px;
-}
-
-.footer a {
-  color: #f4c95d;
-}

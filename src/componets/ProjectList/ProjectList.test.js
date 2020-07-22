@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
+import ProjectList from './ProjectList';
 
-
-describe('<App />', () => {
+describe('<ProjectList />', () => {
     it('renders without crashing', () => {
       const div = document.createElement('div');
       ReactDOM.render(
-      <BrowserRouter>
-      <App/>
-      </BrowserRouter>
+      <ProjectList/>
       , div);
       ReactDOM.unmountComponentAtNode(div);
     });
