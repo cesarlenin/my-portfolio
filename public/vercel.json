@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "my-portfolio",
+    "alias": "my-portfolio",
+    "routes": [
+        { "handle": "filesystem" },
+        { "src": "/.*", "dest": "/index.html" }
+    ]
+  }
