@@ -145,51 +145,6 @@ section {
   max-width: 800px;
 }
 
-nav {
-  text-align: left;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  overflow: hidden;
-  background-color: #060E45;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  letter-spacing: .2em;
-  min-height: 54px;
-}
-
-.about, .projects{
-  border: none;
-  padding: 10px 10px;
-  width: 100%;
-  margin:0;
-}
-
-.links.open{
-  display: flex;
-  flex-direction:column;
-  padding: 0px;
-  margin:0px;
-}
-
-
-
-nav a {
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bolder;
-  padding: 2px;
-  background:none;
-  border:none;
-  cursor: pointer;
-  margin: 3px 0px 3px 10px;
-  padding: 0px 10px;
-  color: #F6D900;
-  letter-spacing: .1em;
-}
 
 .link-button{
   text-decoration: none;
@@ -221,12 +176,86 @@ nav a {
 }
 
 
-/* --------------responsive design-------------------- */
-@media (min-width: 420px) {
 
-  nav a {
-    font-size: 18px;
-  }
+
+
+nav {
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #060E45;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  letter-spacing: .2em;
+  min-height: 5%;
+}
+
+.about, .projects{
+  border: white solid 1px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+ul{
+  width: 100%;
+}
+
+
+.links {
+  display: none;
+  list-style-type:none;
+}
+
+.links.open{
+  display: flex;
+  flex-direction:column;
+  padding: 0px;
+  margin:0px;
+  text-align: center;
+}
+
+
+
+nav a,  nav button{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 2px;
+  background:none;
+  border:none;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0px 10px;
+  color: #F6D900;
+  letter-spacing: .1em;
+}
+
+nav button.icon {
+
+  text-decoration: none;
+  right: 10px;
+  top: 5px;
+  font-size: 30px;
+  color: #EEEEEE;
+}
+
+button.active{height: 54px;} 
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* --------------responsive design-------------------- */
+@media (min-width: 465px) {
 
   .about-me{
     width:75%;
@@ -266,6 +295,30 @@ nav a {
   margin-left: auto;
   margin-right: auto;
   }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #myLinks{
+    display: flex;
+    flex-direction:row;  
+    justify-content: flex-end;
+    justify-self: middle;
+    margin:0;
+  }
+
+  .about, .projects{
+    border: none;
+    padding: 10px 10px;
+    width: auto;
+  }
+
+  nav button.icon {display: none;}
+
 }
 
 @media (min-width: 950px) {
@@ -275,7 +328,7 @@ nav a {
     margin-right: auto;
     }
 
-    nav a {
-      font-size: 20px;
-    }
+  nav a, nav button{
+    font-size: 20px;
+  }
 }
