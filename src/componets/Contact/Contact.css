@@ -43,3 +43,33 @@
     font-size: 18px;
   }
 }
+
+@media (min-width: 1200px) {
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    float: right;
+  }
+
+  .contact h3{
+    align-self: flex-end;
+    margin-right: 50px;
+  }
+  
+  .contact-links{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .contact-link{
+    flex-direction: row;
+    align-items: flex-end;
+    width: 160px;
+    margin: 2px;
+    font-size: 18px;
+  }
+}
