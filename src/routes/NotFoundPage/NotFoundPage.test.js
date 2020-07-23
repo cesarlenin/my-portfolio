@@ -9,7 +9,7 @@ describe('<NotFoundPage />', () => {
       const div = document.createElement('div');
       ReactDOM.render(
       <BrowserRouter>
-      <NotFoundPage/>
+        <NotFoundPage/>
       </BrowserRouter>
       , div);
       ReactDOM.unmountComponentAtNode(div);

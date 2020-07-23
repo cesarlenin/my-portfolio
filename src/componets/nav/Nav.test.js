@@ -9,7 +9,7 @@ describe('<Nav />', () => {
       const div = document.createElement('div');
       ReactDOM.render(
       <BrowserRouter>
-      <Nav/>
+        <Nav/>
       </BrowserRouter>
       , div);
       ReactDOM.unmountComponentAtNode(div);

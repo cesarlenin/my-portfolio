@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Header from '../../componets/ProjectHeader/ProjectHeader'
-import ProjectList from '../../componets/ProjectList/ProjectList'
+import React, { Component } from 'react';
+import Header from '../../componets/ProjectHeader/ProjectHeader';
+import ProjectList from '../../componets/ProjectList/ProjectList';
 
 export class ProjectsPage extends Component {
 

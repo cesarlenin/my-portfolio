@@ -9,7 +9,7 @@ describe('<LandingPage />', () => {
       const div = document.createElement('div');
       ReactDOM.render(
       <BrowserRouter>
-      <LandingPage/>
+        <LandingPage/>
       </BrowserRouter>
       , div);
       ReactDOM.unmountComponentAtNode(div);

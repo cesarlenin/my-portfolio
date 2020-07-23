@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Nav.css'
+import './Nav.css';
 
 export class Nav extends Component {
     constructor(props) {
@@ -17,35 +17,33 @@ export class Nav extends Component {
 
 
   render() {
-
     return (
-        <nav>
-        <div className='navContainer'>
+    <nav>
+      <div className='navContainer'>
         <Link className='active home' to = '/' >Cesar Morales</Link> 
-        <button className="icon" onClick={(e) => {
-          e.preventDefault();
-          this.closeNav();
-        }}>
-        <i className="fa fa-bars"></i>
+        <button className="icon" 
+          onClick={(e) => {
+            e.preventDefault();
+            this.closeNav();
+          }}>
+          <i className="fa fa-bars"></i>
         </button>
-        </div>
-        <ul id="myLinks" className={this.state.activeClassName}>
-        <li className='projects'><Link  to = '/projects' 
-        onClick={(e) => {
-          this.closeNav();
-        }}>
+      </div>
+
+      <ul id="myLinks" className={this.state.activeClassName}>
+        <li className='projects'>
+          <Link  to = '/projects' onClick={(e) => { this.closeNav();}}>
           Projects
           </Link> </li>
-        <li className='about'><Link to = '/'
-        onClick={(e) => {
-          this.closeNav();
-        }}>
+        <li className='about'>
+          <Link to = '/' onClick={(e) => {this.closeNav();}}>
           about
-        </Link> </li>
-        </ul>
+          </Link>
+        </li>
+      </ul>
     </nav>
     )
   }
 }
 
-export default Nav
+export default Nav;

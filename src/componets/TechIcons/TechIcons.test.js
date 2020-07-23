@@ -7,7 +7,7 @@ describe('<TechIcons />', () => {
       const div = document.createElement('div');
       ReactDOM.render(
       <TechIcons
-      name='node'
+        name='node'
       />
       , div);
       ReactDOM.unmountComponentAtNode(div);
