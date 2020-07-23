@@ -4,7 +4,7 @@ const STORE = {
             id: 1,
             name: 'Penny Thoughts',
             live:'https://penny-thoughts.vercel.app/',
-            summary: "In a world where COVID-19, boiling racial tensions, and deepening political divides are deteriorating a large portion of the population's mental health, Penny Thoughts was born from our desire to help fight off negativity. It is a space where the common folk can motivate those who fell victim to these stressful times by anonymously sharing and receiving uplifting messages.Taking into account that some users may not have the best intentions, TensorFlow AI was used as a filter to insure all messages sent are appropriate.",
+            summary: "In a world where COVID-19, boiling racial tensions, and deepening political divides are deteriorating a large portion of the population's mental health, Penny Thoughts was born from our desire to help fight off negativity. It is a space where the common folk can motivate those who fell victim to these stressful times by anonymously sharing and receiving uplifting messages. Taking into account that some users may not have the best intentions, TensorFlow AI was used as a filter to ensure all messages sent are appropriate.",
             repo: "https://github.com/thinkful-ei-narwhal/penny-thoughts-client",
             tech: ["html","css","js","node","postgresql","react","knex", "mocha","express"],
             img:"/images/Penny-Thoughts.png"
@@ -22,7 +22,7 @@ const STORE = {
             id: 3,
             name: 'My Discipline- habit tracker',
             live:'https://my-discipline.now.sh/',
-            summary: "My Discipline was created for individuals looking to better themselves by keeping track and organizing all of their habits. The user starts off by setting goals they want to meet. Then generating a collection of habits they want to have, and quickly seeing their consistency in a calendar every time they log in.",
+            summary: "My Discipline was created for individuals looking to better themselves by keeping track and organizing all of their habits. The user starts off by setting the goals they want to meet. Then generating a collection of habits they want to have, and quickly seeing their consistency in a calendar every time they log in.",
             repo: "https://github.com/cesarlenin/my-discipline",
             tech: ["html","css","js","node","postgresql","react","knex", "mocha","express"],
             img:"/images/My-Discipline.png"
