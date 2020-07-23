@@ -6,8 +6,8 @@ My Portfolio
 live site: https://my-portfolio-woad.vercel.app
 
 ## Screen Shots
-![About](img/About.png)<br />
-![Projects](img/Projects.png)<br />
+![About](images/About.png)<br />
+![Projects](images/Projects.png)<br />
 
 ### Summary
  I love coding because the work I do is something I can proudly stamp my name on. Encountering roadblocks and overcoming them gives me a sense of euphoria.I like a challenge.The greater the struggle, the better.It is what keeps me coming back.I want to be part of a team to tackle bigger projects and trade knowledge with other passionate people.
