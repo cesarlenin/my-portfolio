@@ -37,7 +37,7 @@ export class Nav extends Component {
           </Link> </li>
         <li className='about'>
           <Link to = '/' onClick={(e) => {this.closeNav();}}>
-          about
+          About
           </Link>
         </li>
       </ul>
