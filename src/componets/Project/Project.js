@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import TechIcons from '../TechIcons/TechIcons'
+import React, { Component } from 'react';
+import TechIcons from '../TechIcons/TechIcons';
+import './Project.css';
 
 export class Project extends Component {
 

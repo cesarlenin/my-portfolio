@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './LandingHeader.css';
 
 export class LandingHeader extends Component {
   render() {

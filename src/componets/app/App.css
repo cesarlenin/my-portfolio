@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1, h2, h3, h4{
+    line-height: 1.25;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  h1{color: #060E45;}
+  
+  h2{color: #BF032B;}
+  
+  h3{color: #060E45;}
+  
+  h2, h3{
+    font-size: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  button{
+    font-family: 'Lora', serif;
   }
-}
+  
+  p{
+    font-size: 1rem; 
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header{
+    margin-top: 4rem;
+    text-align: center;
+    border-bottom: solid 1px #02265D;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 4% 0;
+  }
+  
+  .tech-icon {height: 50px;}
+  
+  
+  /* --------------responsive design-------------------- */
+  @media (min-width: 465px) {
+  
+    main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  }
+  
+  @media (min-width: 950px) {
+    main{
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+  
+  }
+  

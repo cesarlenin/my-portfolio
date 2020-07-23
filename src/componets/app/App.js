@@ -5,6 +5,7 @@ import ProjectPage from '../../routes/ProjectsPage/ProjectsPage';
 import NotFoundPage from '../../routes/NotFoundPage/NotFoundPage';
 import Footer from '../Footer/Footer';
 import Nav from '../nav/Nav';
+import './App.css'
 
 function App() {
   return (
