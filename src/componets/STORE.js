@@ -20,7 +20,7 @@ const STORE = {
         },
         {
             id: 3,
-            name: 'My Discipline- habit tracker',
+            name: 'My Discipline - Habit Tracker',
             live:'https://my-discipline.now.sh/',
             summary: "My Discipline was built for individuals looking to better themselves by keeping track and organizing all of their habits. The user starts by setting the goals they want to meet. Then generating a collection of habits they want to have, and quickly seeing their consistency in a calendar every time they log in.",
             repo: "https://github.com/cesarlenin/my-discipline",
